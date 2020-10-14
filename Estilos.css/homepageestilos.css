@@ -1,0 +1,165 @@
+.body{
+    background-color: #f0dfdf;
+    text-align: center;
+}
+
+.Titulo1{
+    text-align: center;
+    background: #000000;
+    color: blanchedalmond;
+    font-family: cursive;
+}
+
+.Titulo1 :hover{
+    color: #fc7167;
+}
+
+.MenuEnfer{
+    width: 100%;
+    height: 60px;
+    z-index: 101;
+    background: #292323;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -6px;
+    color: #fc7167;
+    
+}
+
+    .MenuEnfer li a:hover{
+        color: rgb(238, 131, 131);
+        text-decoration: overline;
+    
+    }
+    
+    .MenuEnfer li a{
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: rgb(238, 13, 13);
+        font-size: 40px;
+    }
+
+    .MenuEnfer ul{
+        padding: 0%;
+        margin: 0%;
+        list-style: none;
+        display: inline-flex ;
+    }
+    
+    .MenuEnfer li{
+        padding-top: 15px;
+        padding-left: 30px; }
+
+.Titulo2{
+     color: #ecd0ce;
+     font-family: 'Times New Roman', Times, serif;
+}
+.parrafo{
+    color:#000000;
+}
+
+.texto_footer{
+    text-align: center;
+    color:rgb(184, 206, 235);
+    width: 100%;
+    font-family: cursive;
+    font-size: 25px;
+    background-color: black;
+    height: 40px;
+    margin: auto;
+}
+
+.cuestionario{
+    text-align: center;
+    color: rgb(241, 16, 103);
+    background-color: black;
+}
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1; 
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  .texto_footer{
+    text-align: center;
+    color:rgb(12, 3, 5);
+    width: 100%;
+    font-family: cursive;
+    font-size: 25px;
+    background-color: rgb(238, 155, 220);
+    height: 120px;
+}
+.cuestionario{
+    text-align: center;
+    color: rgb(8, 6, 7);
+    background-color: rgb(248, 101, 101);
+}
+.quest{
+    text-align: center;
+}
